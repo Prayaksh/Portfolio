@@ -6,7 +6,7 @@ import {
   Link,
   useNavigate,
 } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/Home";
 import ProjectTab from "./components/ProjectTab";
 import Experience from "./components/Experience";
 import ToolsTab from "./components/ToolsTab";
