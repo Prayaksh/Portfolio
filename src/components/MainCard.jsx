@@ -3,7 +3,7 @@ import React from "react";
 
 const MainCard = () => {
   return (
-    <div className="flex justify-center lg:inline-block">
+    <div className="flex justify-center lg:inline-block h-fit overflow-hidden m-2">
       <div className="bg-[#FF69B4] rounded-xl flex flex-col items-center justify-evenly m-4 text-center w-[95vw] md:h-[70vh]  lg:w-[350px] lg:h-[620px] xl:w-[380px] ">
         <img
           src="src\assets\images\Hitler.jpg"
@@ -19,10 +19,9 @@ const MainCard = () => {
         </h2>
         <h3
           id="MainTagLine"
-          className="w-56 sm:w-60 md:w-72 text-lg font-archivo font-[400] leading-none tracking-tight whitespace-pre-wrap text-center max-w-prose my-2 text-[#000000a9] lg:text-xl"
+          className="w-56 sm:w-60 md:w-72 text-lg font-archivo font-[400] leading-none tracking-tight whitespace-pre-wrap text-center max-w-prose my-2 text-[#000000] lg:text-xl"
         >
-          Lorem ipsum dolor, sit amet conse ctetur adipi sicing elit. Nam
-          maiores libero
+          Website Developer and Software engineer in T3
         </h3>
         <div className="flex justify-around w-52 my-4 xl:w-68">
           <a id="InstagramProfile" href="">
@@ -32,9 +31,9 @@ const MainCard = () => {
               className="h-8 w-8 xl:h-10 xl:w-10"
             />
           </a>
-          <a id="InstagramProfile" href="">
+          <a id="LinkedINProfile" href="">
             <img
-              src="src\assets\icons\Dribble.svg"
+              src="src\assets\icons\linkedIN.svg"
               alt="Dribble"
               className="h-8 w-8 xl:h-10 xl:w-10"
             />

@@ -12,6 +12,7 @@ import Experience from "./components/Experience";
 import ToolsTab from "./components/ToolsTab";
 import BlogTab from "./components/BlogTab";
 import Layout from "./pages/Layout";
+import Window from "./assets/animations/Window";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
             </Layout>
           }
         />
+        <Route path="/testing" element={<Window />} />
       </Routes>
     </Router>
   );
