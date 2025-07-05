@@ -29,7 +29,7 @@ const BlogTab = ({ data = blogData }) => {
                   : "md:mr-4 md:mt-4"
               }`}
             >
-              <img src="public\assets\icons\arrow-topright.svg" alt="Arrow" />
+              <img src="\assets\icons\arrow-topright.svg" alt="Arrow" />
             </div>
             <h2 className="text-[#ffffff] text-2xl font-[700] leading-tight md:w-128">
               {blog.title}

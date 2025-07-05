@@ -38,7 +38,7 @@ const ToolsTab = ({ data = toolsData }) => {
                   : "md:mr-4 md:mt-4"
               }`}
             >
-              <img src="public\assets\icons\arrow-topright.svg" alt="Arrow" />
+              <img src="\assets\icons\arrow-topright.svg" alt="Arrow" />
             </div>
             <div className="flex align-center">
               <img

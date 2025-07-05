@@ -61,44 +61,44 @@ export const projectData = [
   {
     name: "KnowCrypto",
     about: "A cryptocurrency market update app",
-    photo: "public/assets/images/tools/Framer.png",
+    photo: "/assets/images/tools/Framer.png",
     techStackData: [
       {
         id: "vite",
         name: "Vite",
-        icon: "public/assets/icons/Vitejs.svg",
+        icon: "/assets/icons/Vitejs.svg",
       },
       {
         id: "react",
         name: "React",
-        icon: "public/assets/icons/React.svg",
+        icon: "/assets/icons/React.svg",
       },
       {
         id: "tailwind",
         name: "Tailwind",
-        icon: "public/assets/icons/tailwindcss.svg",
+        icon: "/assets/icons/tailwindcss.svg",
       },
     ],
   },
   {
     name: "Lumas",
     about: "A website development platform",
-    photo: "public/assets/images/tools/NextJS.png",
+    photo: "/assets/images/tools/NextJS.png",
     techStackData: [
       {
         id: "html",
         name: "HTML",
-        icon: "public/assets/icons/HTML5.svg",
+        icon: "/assets/icons/HTML5.svg",
       },
       {
         id: "css",
         name: "CSS",
-        icon: "public/assets/icons/CSS3.svg",
+        icon: "/assets/icons/CSS3.svg",
       },
       {
         id: "js",
         name: "JavaScript",
-        icon: "public/assets/icons/JavaScript.png",
+        icon: "/assets/icons/JavaScript.png",
       },
     ],
   },
@@ -108,31 +108,31 @@ export const toolsData = [
   {
     name: "Framer",
     about: "Website Builder",
-    photo: "public/assets/images/tools/Framer.png",
+    photo: "/assets/images/tools/Framer.png",
     url: "https://www.framer.com/",
   },
   {
     name: "ChatGPT",
     about: "Generative AI tool",
-    photo: "public/assets/images/tools/ChatGPT.png",
+    photo: "/assets/images/tools/ChatGPT.png",
     url: "https://openai.com/",
   },
   {
     name: "Figma",
     about: "UI Design Tool",
-    photo: "public/assets/images/tools/Figma.png",
+    photo: "/assets/images/tools/Figma.png",
     url: "https://www.figma.com/",
   },
   {
     name: "NextJS",
     about: "Javascript Library",
-    photo: "public/assets/images/tools/NextJS.png",
+    photo: "/assets/images/tools/NextJS.png",
     url: "https://www.framer.com/",
   },
   {
     name: "Notion",
     about: "Productivity tool",
-    photo: "public/assets/images/tools/Notion.png",
+    photo: "/assets/images/tools/Notion.png",
     url: "https://nextjs.org/",
   },
 ];
@@ -141,56 +141,56 @@ export const allTechStackData = [
   {
     id: "node",
     name: "Node.js",
-    icon: "public/assets/icons/Node.svg",
+    icon: "/assets/icons/Node.svg",
   },
   {
     id: "docker",
     name: "Docker",
-    icon: "public/assets/icons/Docker.svg",
+    icon: "/assets/icons/Docker.svg",
   },
   {
     id: "kubernetes",
     name: "Kubernetes",
-    icon: "public/assets/icons/Kubernetes.svg",
+    icon: "/assets/icons/Kubernetes.svg",
   },
   {
     id: "graphql",
     name: "GraphQL",
-    icon: "public/assets/icons/GraphQL.svg",
+    icon: "/assets/icons/GraphQL.svg",
   },
   {
     id: "git",
     name: "Git",
-    icon: "public/assets/icons/Git.svg",
+    icon: "/assets/icons/Git.svg",
   },
   {
     id: "html",
     name: "HTML",
-    icon: "public/assets/icons/HTML5.svg",
+    icon: "/assets/icons/HTML5.svg",
   },
   {
     id: "css",
     name: "CSS",
-    icon: "public/assets/icons/CSS3.svg",
+    icon: "/assets/icons/CSS3.svg",
   },
   {
     id: "js",
     name: "JavaScript",
-    icon: "public/assets/icons/JavaScript.png",
+    icon: "/assets/icons/JavaScript.png",
   },
   {
     id: "vite",
     name: "Vite",
-    icon: "public/assets/icons/Vitejs.svg",
+    icon: "/assets/icons/Vitejs.svg",
   },
   {
     id: "react",
     name: "React",
-    icon: "public/assets/icons/React.svg",
+    icon: "/assets/icons/React.svg",
   },
   {
     id: "tailwind",
     name: "Tailwind",
-    icon: "public/assets/icons/tailwindcss.svg",
+    icon: "/assets/icons/tailwindcss.svg",
   },
 ];

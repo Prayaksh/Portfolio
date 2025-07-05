@@ -30,11 +30,7 @@ const Navbar = () => {
             onMouseEnter={(e) => handleClick(e, "Home")}
             onMouseLeave={() => setIsHovered(false)}
           >
-            <img
-              src="public\assets\icons\home.svg"
-              alt="Home"
-              className="h-6 w-6"
-            />
+            <img src="\assets\icons\home.svg" alt="Home" className="h-6 w-6" />
           </div>
         </Link>
         <Link to={"/project"}>
@@ -45,7 +41,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="public/assets/icons/folder.svg"
+              src="/assets/icons/folder.svg"
               alt="Project"
               className="h-6 w-6"
             />
@@ -59,7 +55,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="public/assets/icons/briefcase.svg"
+              src="/assets/icons/briefcase.svg"
               alt="Experience"
               className="h-6 w-6"
             />
@@ -73,7 +69,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="public/assets/icons/wrench.svg"
+              src="/assets/icons/wrench.svg"
               alt="Tools"
               className="h-6 w-6"
             />
@@ -87,7 +83,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="public/assets/icons/notes.svg"
+              src="/assets/icons/notes.svg"
               alt="Thoughts"
               className="h-6 w-6"
             />
