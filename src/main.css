@@ -1,28 +1,27 @@
 @import "tailwindcss";
 @font-face {
-    font-family: Lato;
-    src: url(../src/assets/fonts/Lato/Lato-Regular.ttf);
+  font-family: Lato;
+  src: url("/assets/fonts/Lato/Lato-Regular.ttf");
 }
 @font-face {
-    font-family: Orbitron;
-    src: url(../src/assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+  font-family: Orbitron;
+  src: url(/assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
 }
 @font-face {
-    font-family: Archivo;
-    src: url(../src/assets/fonts/Archivo/Archivo-VariableFont_wdth\,wght.ttf);
+  font-family: Archivo;
+  src: url("/assets/fonts/Archivo/Archivo-VariableFont_wdth,wght.ttf");
 }
-@import "tailwindcss";
 
 @theme {
-    --font-lato: Lato, "sans-serif";
-    --font-orbitron: Orbitron, "sans-serif";
-    --font-archivo: Archivo, "sans-serif";
+  --font-lato: Lato, "sans-serif";
+  --font-orbitron: Orbitron, "sans-serif";
+  --font-archivo: Archivo, "sans-serif";
 }
 
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
-body{
-    background-color: #121212;
+body {
+  background-color: #121212;
 }

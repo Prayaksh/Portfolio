@@ -18,7 +18,7 @@ const BlogTab = ({ data = blogData }) => {
             key={i}
             onMouseEnter={() => setHoveredIndex(i)}
             onMouseLeave={() => setHoveredIndex(null)}
-            className={`w-full text-left text-[#b0b0b0a9] font-archivo flex flex-col justify-center p-4 relative lg:w-[620px] my-2  ${
+            className={`w-full text-left text-[#b0b0b0a9] font-archivo-300 flex flex-col justify-center p-4 relative lg:w-[620px] my-2  ${
               hoveredIndex === i ? "bg-[#232323] rounded-xl" : "bg-[#121212f2]"
             }`}
           >
@@ -29,7 +29,7 @@ const BlogTab = ({ data = blogData }) => {
                   : "md:mr-4 md:mt-4"
               }`}
             >
-              <img src="src\assets\icons\arrow-topright.svg" alt="Arrow" />
+              <img src="public\assets\icons\arrow-topright.svg" alt="Arrow" />
             </div>
             <h2 className="text-[#ffffff] text-2xl font-[700] leading-tight md:w-128">
               {blog.title}

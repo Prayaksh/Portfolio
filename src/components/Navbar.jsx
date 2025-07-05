@@ -31,7 +31,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="src/assets/icons/home.svg"
+              src="public\assets\icons\home.svg"
               alt="Home"
               className="h-6 w-6"
             />
@@ -45,7 +45,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="src/assets/icons/folder.svg"
+              src="public/assets/icons/folder.svg"
               alt="Project"
               className="h-6 w-6"
             />
@@ -59,7 +59,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="src/assets/icons/briefcase.svg"
+              src="public/assets/icons/briefcase.svg"
               alt="Experience"
               className="h-6 w-6"
             />
@@ -73,7 +73,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="src/assets/icons/wrench.svg"
+              src="public/assets/icons/wrench.svg"
               alt="Tools"
               className="h-6 w-6"
             />
@@ -87,7 +87,7 @@ const Navbar = () => {
             onMouseLeave={() => setIsHovered(false)}
           >
             <img
-              src="src/assets/icons/notes.svg"
+              src="public/assets/icons/notes.svg"
               alt="Thoughts"
               className="h-6 w-6"
             />

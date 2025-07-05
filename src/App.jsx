@@ -12,7 +12,7 @@ import Experience from "./components/Experience";
 import ToolsTab from "./components/ToolsTab";
 import BlogTab from "./components/BlogTab";
 import Layout from "./pages/Layout";
-import Window from "./assets/animations/Window";
+import Window from "./components/Window";
 
 function App() {
   return (

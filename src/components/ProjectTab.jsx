@@ -2,7 +2,6 @@ import { useState } from "react";
 import React from "react";
 import { projectData } from "../data/Database";
 import Heading from "./Heading";
-import { p } from "framer-motion/client";
 
 const ProjectTab = ({ data = projectData }) => {
   if (!data || data.length === 0) {
@@ -29,7 +28,7 @@ const ProjectTab = ({ data = projectData }) => {
                   : "md:mr-4 md:mt-4"
               }`}
             >
-              <img src="src\assets\icons\arrow-topright.svg" alt="Arrow" />
+              <img src="public\assets\icons\arrow-topright.svg" alt="Arrow" />
             </div>
             <div className="flex align-center">
               <img
