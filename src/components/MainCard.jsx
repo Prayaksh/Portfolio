@@ -6,7 +6,7 @@ const MainCard = () => {
     <div className="flex justify-center lg:inline-block h-fit overflow-hidden m-2">
       <div className="bg-[#FF69B4] rounded-xl flex flex-col items-center justify-evenly m-4 text-center w-[95vw] md:h-[70vh]  lg:w-[350px] lg:h-[620px] xl:w-[380px] ">
         <img
-          src="\assets\images\Hitler.jpg"
+          src=""
           alt="Profile Photo"
           className=" h-48 w-52 m-4 rounded-xl md:w-65 md:h-70 md:overflow-hidden"
           id="MainPhoto"
