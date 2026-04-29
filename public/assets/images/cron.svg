@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.374525mm"
+   height="13.981288mm"
+   viewBox="0 0 18.374525 13.981288"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   sodipodi:docname="cron.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="5.5375421"
+     inkscape:cx="23.295534"
+     inkscape:cy="42.889065"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-77.466331,-118.49596)">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.100384;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect2"
+       width="18.374525"
+       height="13.981288"
+       x="77.466331"
+       y="118.49596"
+       ry="0.66971117" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.0478px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.530943;stroke-dasharray:none;paint-order:fill markers stroke"
+       x="78.568306"
+       y="130.51572"
+       id="text1"
+       transform="translate(-1.2916666e-6)"><tspan
+         sodipodi:role="line"
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Google Sans';-inkscape-font-specification:'Google Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.530943;stroke-dasharray:none;stroke-opacity:1"
+         x="78.568306"
+         y="130.51572">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.64377px;font-family:'Google Sans';-inkscape-font-specification:'Google Sans';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.175513;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       x="83.453598"
+       y="127.14907"
+       id="text2"
+       transform="translate(-1.2916666e-6)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.175513"
+         x="83.453598"
+         y="127.14907">RON</tspan></text>
+  </g>
+</svg>

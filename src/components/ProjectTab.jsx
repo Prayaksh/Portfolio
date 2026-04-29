@@ -15,6 +15,9 @@ const ProjectTab = ({ data = projectData }) => {
         return (
           <button
             key={i}
+            onClick={() => {
+              window.open(project.link, "_blank");
+            }}
             onMouseEnter={() => setHoveredIndex(i)}
             onMouseLeave={() => setHoveredIndex(null)}
             className={`w-full text-left text-[#b0b0b0a9] font-archivo flex flex-col justify-center p-4 relative lg:w-[620px] my-2 ${

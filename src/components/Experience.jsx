@@ -9,7 +9,7 @@ const Experience = ({ data = experienceData }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   return (
     <div>
-      <Heading str1={"2 Months of"} str2={"Experience"} />
+      <Heading str1={"3 Months of"} str2={"Experience"} />
       {data.map((exp, i) => {
         return (
           <button
@@ -35,7 +35,7 @@ const Experience = ({ data = experienceData }) => {
             <h3 className="text-[#ffffff] text-lg font-[800] leading-tight">
               {exp.role}
             </h3>
-            <p className="font-[300] text-lg leading-tight tracking-loose mt-2 mb-4 md:w-128">
+            <p className="font-[300] text-lg leading-tight tracking-loose mt-2 mb-4 md:w-128 whitespace-pre-line">
               {exp.about}
             </p>
             <p className="text-lg font-[500]">

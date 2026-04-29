@@ -16,48 +16,75 @@ export const blogData = [
 ];
 export const experienceData = [
   {
-    company: "TechNova Solutions",
-    role: "Frontend Developer",
-    about:
-      "Worked on developing and optimizing user interfaces using React and Tailwind CSS.",
-    startDate: "Jan 2022",
-    endDate: "Dec 2022",
-  },
-  {
-    company: "CodeCrafters Inc.",
-    role: "Backend Engineer",
-    about:
-      "Designed and implemented RESTful APIs using Node.js and Express, improving system efficiency.",
-    startDate: "Mar 2021",
-    endDate: "Sep 2021",
-  },
-  {
-    company: "InnovateX Labs",
-    role: "Software Engineer Intern",
-    about:
-      "Assisted in the development of a cloud-based application, focusing on database management.",
-    startDate: "Jul 2020",
-    endDate: "Dec 2020",
-  },
-  {
-    company: "WebWorks Studio",
-    role: "Full-Stack Developer",
-    about:
-      "Built responsive web applications using the MERN stack, enhancing user experience.",
-    startDate: "Feb 2019",
-    endDate: "Aug 2019",
-  },
-  {
-    company: "ByteForge Technologies",
-    role: "UI/UX Designer",
-    about:
-      "Designed and prototyped engaging interfaces, improving user engagement by 20%.",
-    startDate: "May 2018",
-    endDate: "Nov 2018",
+    company: "Innomatics Research Labs",
+    role: "Agentic AI Intern",
+    about: `Engineered LLM-driven backend systems using FastAPI and AWS, building APIs that support dynamic multi-step reasoning, tool integration, and retrieval-augmented responses, enabling more intelligent and context-aware AI applications.
+
+Designed and implemented complex stateful AI workflows with LangGraph, orchestrating structured decision-making processes across multiple prompts and datasets, improving automation and reducing manual intervention.
+
+Bridged traditional backend development and modern AI, creating scalable, production-ready pipelines that combine API engineering, cloud deployment, and intelligent AI orchestration.`,
+    startDate: "Feb 2026",
+    endDate: "May 2026",
   },
 ];
 
 export const projectData = [
+  {
+    name: "Cron",
+    about: "A multi-threaded job scheduling system",
+    photo: "/assets/images/cron.svg",
+    link: "https://github.com/Prayaksh/cron",
+    techStackData: [
+      {
+        id: "Java",
+        name: "Java",
+        icon: "/assets/icons/Java.svg",
+      },
+    ],
+  },
+  {
+    name: "Chess",
+    about: "A real-time multiplayer Chess application ",
+    photo: "/assets/images/chess.svg",
+    link: "https://github.com/Prayaksh/chess",
+    techStackData: [
+      {
+        id: "Socket.io",
+        name: "socket.io",
+        icon: "/assets/icons/Socketio.svg",
+      },
+      {
+        id: "OAuth",
+        name: "Oauth",
+        icon: "/assets/icons/Oauth.svg",
+      },
+      {
+        id: "Nodejs",
+        name: "Nodejs",
+        icon: "/assets/icons/Nodejs.svg",
+      },
+      {
+        id: "vite",
+        name: "Vite",
+        icon: "/assets/icons/Vitejs.svg",
+      },
+      {
+        id: "react",
+        name: "React",
+        icon: "/assets/icons/React.svg",
+      },
+      {
+        id: "tailwind",
+        name: "Tailwind",
+        icon: "/assets/icons/tailwindcss.svg",
+      },
+      {
+        id: "js",
+        name: "JavaScript",
+        icon: "/assets/icons/JavaScript.png",
+      },
+    ],
+  },
   {
     name: "KnowCrypto",
     about: "A cryptocurrency market update app",
@@ -77,6 +104,11 @@ export const projectData = [
         id: "tailwind",
         name: "Tailwind",
         icon: "/assets/icons/tailwindcss.svg",
+      },
+      {
+        id: "js",
+        name: "JavaScript",
+        icon: "/assets/icons/JavaScript.png",
       },
     ],
   },

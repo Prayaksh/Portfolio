@@ -18,7 +18,7 @@ const Home = () => {
         <MainCard />
         <div>
           <Heading str1={"Software"} str2={"Engineer"} />
-          <BlogTab />
+
           <Experience />
           <ProjectTab />
           <ToolsTab />
